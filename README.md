@@ -1,6 +1,6 @@
 # Fluid Music
-### A Music Player Developed by Ryan Weeks
-### Written in Python 3.6
+#### A Music Player Developed by Ryan Weeks
+#### Written in Python 3.6
 
 ## Current Features:
 1. n/a
