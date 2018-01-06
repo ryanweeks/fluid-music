@@ -1,11 +1,13 @@
-#Fluid Music" 
+# Fluid Music
 ### A Music Player Developed by Ryan Weeks
 ### Written in Python 3.6
 
-##Current Features:
+## Current Features:
+1. n/a
+2.
+3.
 
-
-##Potential Features To Implement:
+## Potential Features To Implement:
 1. Play a song
   - Pausing
   - Stoping
@@ -18,8 +20,9 @@
   - Change Song
 2. Create Playlists
 3. Add songs to a queue
-2. MP3 Support
-3. Streaming from Spotify
-4. Streaming from Youtube
-5. Streaming from SoundCloud
-6. 
+4. MP3 Support
+5. Streaming from Spotify
+6. Streaming from Youtube
+7. Streaming from SoundCloud
+
+## Files:
