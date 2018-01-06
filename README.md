@@ -24,5 +24,17 @@
 5. Streaming from Spotify
 6. Streaming from Youtube
 7. Streaming from SoundCloud
+8. Create GUI Interface
+9. Create Visualizer
 
 ## Files:
+
+## Libraries Used:
+1. [PyDub - For File Conversion](https://github.com/jiaaro/pydub)
+
+## Libraries to Include:
+1. [Python Audio Tools - For Converting Audio Formats](http://audiotools.sourceforge.net/ )
+2. [PyAudio - For Playing WAV Files](http://people.csail.mit.edu/hubert/pyaudio/docs/ )
+
+## Useful Links:
+- [Python Audio - Wiki](https://wiki.python.org/moin/Audio/)
