@@ -30,7 +30,8 @@
 ## Files:
 
 ## Libraries Used:
-1. [PyDub - For File Conversion](https://github.com/jiaaro/pydub)
+1. [PyGame - For base audio functionalities](https://www.pygame.org/docs/)
+
 
 ## Libraries to Include:
 1. [Python Audio Tools - For Converting Audio Formats](http://audiotools.sourceforge.net/ )
