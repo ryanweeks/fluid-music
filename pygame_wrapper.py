@@ -10,7 +10,7 @@ import msvcrt
 
 pygame.init()
 pygame.mixer.init()
-
+	
 class Song:
 	song_state = {0: "Stopped", 1: "Playing", 2: "Paused"}
 	volume_step = 0.02 # 1/50 = 0.02 (MAX vol is 50, MIN is 0)
@@ -161,7 +161,10 @@ class Song:
 		self.set_volume(volume)
 	def print_status(self):
 		print("Media is currently " + song_state[self.status])
-	
+
+song = Song("./ZIPPER.mp3", "ZIPPER", "BROCKHAMPTON", 202000, 1.0)
+		
+
 '''
 pygame.mixer.music.fadeout()
 pygame.mixer.music.set_endevent()
