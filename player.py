@@ -12,3 +12,7 @@ while True:
 		command_list[command]()
 	else:
 		print("Command not found")
+		
+def help():
+	for c in command_list:
+		print(c, " : " command_list[c])
