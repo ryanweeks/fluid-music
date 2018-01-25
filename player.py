@@ -1,18 +1,18 @@
 import sys
 import pygame
 
+def man():
+	for c in command_list:
+		print(c, str(command_list[c]))
+
 print("Welome to Fluid Music")
 
-command_list = {"help": help}
+command_list = {"man": man}
 
 while True:
-	command = raw_input("Enter command (\"help\" for command list):")
+	command = input("Enter command (\"man\" for command list):")
 	
 	if command in command_list:
 		command_list[command]()
 	else:
 		print("Command not found")
-		
-def help():
-	for c in command_list:
-		print(c, " : " command_list[c])
