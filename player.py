@@ -1,13 +1,16 @@
 import sys
-import pygame
+import pygame_wrapper
 
 def man():
 	for c in command_list:
-		print(c, str(command_list[c]))
+		print(c)
+		
+def exit():
+	sys.exit()
+	
+command_list = {"man": man, "exit": exit}
 
 print("Welome to Fluid Music")
-
-command_list = {"man": man}
 
 while True:
 	command = input("Enter command (\"man\" for command list):")
